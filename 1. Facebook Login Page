@@ -1,0 +1,46 @@
+<html>
+    <head>
+        <title>Facebook</title>
+    </head>
+    <body>
+        <h1>Sign Up</h1>
+        <div>
+            <input type="text" placeholder="Enter your first name"/> <br><br>
+        </div>
+        <div>
+            <input type="text" placeholder="Enter your last name"/><br><br>
+        </div>
+        <div>
+            <input type="email" placeholder="Enter your email"/><br><br>
+        </div>
+        <div>
+            <input type="number" placeholder="Enter your phone number" /><br><br>
+        </div>
+        <div><input type="password" placeholder="Enter your password"/><br><br></div>
+        <div>
+            <input type="radio" name="gender" value="Male"/>Male
+            <input type="radio" name="gender" value="Female"/> Female
+            <input type="radio" name="gender" value="Other"/>Other<br><br>
+        </div>
+        <div>
+            <select>
+                <option value="">Select Date</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+            </select>
+            <select>
+                <option value="">Select Month</option>
+                <option value="1">Jan</option>
+                <option value="2">Feb</option>
+            </select>
+            <select>
+                <option value="">Select year</option>
+                <option value="1">2000</option>
+                <option value="2">2001</option>
+            </select><br><br>
+        </div>
+        <div>
+            <input type="submit" value="SignUp"/>
+        </div>
+    </body>
+</html>
