@@ -1,0 +1,365 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    width: 100%;
+    height: 77px;
+    background:black;
+}
+nav p{
+    color: red;
+}
+.search{
+    outline: none;
+    border-radius: 10px;
+    border: none;
+    width: 15%;
+    height: 25px;
+    margin: 26px;
+    float: left;
+    padding-left: 13px;
+    margin-left: 24%;
+}
+
+.header {
+    cursor: pointer;
+    padding-top: 25px;
+    float: left;
+    font-size: 23px;
+    padding-left: 16px;
+}
+nav p:hover{
+    color: white;
+}
+nav ul{
+    float: right;
+}
+nav ul li{
+    color: red;
+    cursor: pointer;
+    padding-right: 61px;
+    display: inline-block;
+    padding-top: 25px;
+    font-size: 128%;
+}
+nav ul li:hover{
+    color: white;
+}
+.background{
+    height: 122%;
+    width: 100%;
+    background-color: red;
+}
+
+.image1{
+    position: relative;
+    top: 0px;
+    background-image: url(boat402.jpg);
+    background-repeat: no-repeat;
+    height: 50%;
+    width: 36%;
+    background-size: contain;
+    float:left;
+}
+.image2{
+    background-repeat: no-repeat;
+    background-image: url(airdopes-402-blue.png);
+    width: 97%;
+    height: 128%;
+    background-size: contain;
+    clear: both;
+    margin-left: auto;
+}
+.image1:hover{
+    transition-delay: 0.3s;
+    background-image: url(402.jpg) ;   
+}
+.image2:hover{
+    transition-delay: 0.2s;
+    background-image: url(boat4021.png);
+}
+
+.image1 h1{
+    font-size: 50px;
+    position: relative;
+    left: 138%;
+    height: 19%;
+}
+.image1 h2{
+    position: relative;
+    left: 163%;
+    height: 6%;
+}
+.image1 h3{
+    position: relative;
+    left: 161%;
+    width: 35%;
+    color: #f1eaea;
+    padding-left: 7%;
+    height: 10%;
+    padding-top: 5%;
+}
+.image1 i{
+    position: relative;
+    left: 161%;
+    width: 35%;
+    color: #f1eaea;
+    padding-left: 7%;
+    height: 10%;
+    bottom: 53%;
+}
+.boatimg{
+    width: 51%;
+    clear: both;
+    position: relative;
+    height: 54%;
+    left: 136%;
+    top: -3%;
+}
+.img{
+    position: relative;
+    left: 176%;
+    bottom: 347px;
+    height: 47%;
+    float: right;
+    width: 48%;
+}
+.img1{
+    position: relative;
+    left: 95%;
+    bottom: 488px;
+    height: 74%;
+    width: 70%;
+    float: left;
+}
+.tws{
+    top:-8%;
+    float: left;
+    border-radius: 4%;
+    width: 16%;
+    clear: both;
+    height: 38%;
+    background: lightgray;
+    position: relative;
+    margin-left: 2%;
+}
+.image2 p{
+    background: white;
+    padding-top: 8%;
+    position: relative;
+    top: 53%;
+    height: 21%;
+    width: 103%;
+    border-bottom-left-radius: 10px;
+    right: 6px;
+    border-bottom-right-radius: 10px;
+}
+.star{position: relative;
+    padding-top: 53%;
+    float: left;
+}
+.review{
+    float: right;
+    position: relative;
+    padding-top: 55%;
+    padding-right: 21%;
+}
+.price{
+    float: left;
+    position: relative;
+    color: red;
+    padding-top: 3%;
+    right: 0px;
+}
+.price1{
+    padding-top: 3%;
+    position: relative;
+    color: gray;
+    text-decoration: line-through;
+    padding-right: 15%;
+    float: right;
+}
+.name{
+    padding-top: 2%;
+    clear: both;
+    position: relative;
+    font-family: 'Roboto Slab', serif;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 15px;
+}
+.image3{
+    background-repeat: no-repeat;
+    background-image: url(431.png);
+    width: 97%;
+    height: 128%;
+    background-size: contain;
+    clear: both;
+    margin-left: auto;
+}
+.image3:hover{
+    transition-delay: 0.2s;
+    background-image: url(4312.png);
+}
+.tws431{
+    top:-8%;
+    float: left;
+    border-radius: 4%;
+    width: 16%;
+    height: 38%;
+    background: lightgray;
+    position: relative;
+    margin-left: 4%;
+}
+.image3 p{
+    background: white;
+    padding-top: 8%;
+    position: relative;
+    top: 53%;
+    height: 21%;
+    width: 103%;
+    border-bottom-left-radius: 10px;
+    right: 6px;
+    border-bottom-right-radius: 10px;
+}
+.tws311{
+    top:-8%;
+    float: left;
+    border-radius: 4%;
+    width: 16%;
+    height: 38%;
+    background: lightgray;
+    position: relative;
+    margin-left: 4%;
+}
+.image4 p{
+    background: white;
+    padding-top: 8%;
+    position: relative;
+    top: 53%;
+    height: 21%;
+    width: 103%;
+    border-bottom-left-radius: 10px;
+    right: 6px;
+    border-bottom-right-radius: 10px;
+}
+.image4{
+    background-repeat: no-repeat;
+    background-image: url(311.png);
+    width: 97%;
+    height: 128%;
+    background-size: contain;
+    clear: both;
+    margin-left: auto;
+}
+.image4:hover{
+    transition-delay: 0.2s;
+    background-image: url(3112.png);
+}
+.tws481{
+    top:-8%;
+    float: left;
+    border-radius: 4%;
+    width: 16%;
+    height: 38%;
+    background: lightgray;
+    position: relative;
+    margin-left: 4%;
+}
+.image5 p{
+    background: white;
+    padding-top: 8%;
+    position: relative;
+    top: 53%;
+    height: 21%;
+    width: 103%;
+    border-bottom-left-radius: 10px;
+    right: 6px;
+    border-bottom-right-radius: 10px;
+}
+.image5{
+    background-repeat: no-repeat;
+    background-image: url(481.png);
+    width: 97%;
+    height: 128%;
+    background-size: contain;
+    clear: both;
+    margin-left: auto;
+}
+.image5:hover{
+    transition-delay: 0.2s;
+    background-image: url(4812.png);
+}
+.tws501{
+    top:-8%;
+    float: left;
+    border-radius: 4%;
+    width: 16%;
+    height: 38%;
+    background: lightgray;
+    position: relative;
+    margin-left: 4%;
+}
+.image6 p{
+    background: white;
+    padding-top: 8%;
+    position: relative;
+    top: 53%;
+    height: 21%;
+    width: 103%;
+    border-bottom-left-radius: 10px;
+    right: 6px;
+    border-bottom-right-radius: 10px;
+}
+.image6{
+    background-repeat: no-repeat;
+    background-image: url(501.png);
+    width: 97%;
+    height: 128%;
+    background-size: contain;
+    clear: both;
+    margin-left: auto;
+}
+.image6:hover{
+    transition-delay: 0.2s;
+    background-image: url(5012.png);
+}
+.social{
+    clear: both;
+    display: flex;
+}
+.twitter{
+    cursor: pointer;
+    position: relative;
+    height: 3%;
+    width: 2%;
+    left: 619px;
+}
+.facebook{
+    cursor: pointer;
+    position: relative;
+    height: 5%;
+    width: 2%;
+    left: 564px;
+}
+.linkedin{
+    cursor: pointer;
+    position: relative;
+    height: 5%;
+    width: 2%;
+    left: 598px;
+}
+.youtube{
+    cursor: pointer;
+    height: 5%;
+    width: 2%;
+    position: relative;
+    left: 603px;
+}
+.last{
+    background: black;
+    text-align: center;
+    clear: both;
+    position: relative;
+    color: red;
+}
